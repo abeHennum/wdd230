@@ -6,33 +6,44 @@
     <meta name = "description" content="WDD 230 - Web Frontend Development - Abraham Hennum - Course assignment portal">
     <meta name="author" content="Abraham Hennum">
     <title>Abraham Hennum - WDD 230 - Web Frontend Development</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
-    <header>
-        <img src="https://picsum.photos/150/150" alt="Abe Hennum mugshot">
-        <h1>Abraham Hennum</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="lesson03/chamber-site-plan.html"></a>Site Plan</li>
-            <li><a href="chamber/"></a>Chamber</li>
-            <li><a href="https://www.byui.edu/"></a> BYU-Idaho</li>
-            <li><a href=""></a>Scripture</li>
-        </ul>
-    </nav>
-    <main>
-        <h2>WDD 230: Web Frontend Development I</h2>
-        <hr>
-        <seciton class="card ">
-            <h3>Learning Activities</h3>
-        </seciton>
-        <seciton class="card ">
-            <h3>Information</h3>
-        </seciton>
-    </main>
-    <footer>
-
-    </footer>
+    <div id="content">
+        <header>
+            <img src="https://picsum.photos/150/150" alt="Abe Hennum mugshot">
+            <h1>Abraham Hennum</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="lesson03/chamber-site-plan.html">Site Plan</a></li>
+                <li><a href="chamber/">Chamber</a></li>
+                <li><a href="https://www.byui.edu/">BYU-Idaho</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/130?lang=eng&id=p20-p21#p20">Scripture</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>WDD 230: Web Frontend Development I</h2>
+            <hr>
+            <section class="card ">
+                <h3>Learning Activities</h3>
+                <ul>
+                    <li>Week 1: <a href="#">Lesson 1</a></li>
+                </ul>
+            </section>
+            <section class="card ">
+                <h3>Information</h3>
+                <p>Weather Information: Placeholder</p>
+                <p>Visits to the page: Placeholder</p>
+                <p></p>
+            </section>
+        </main>
+        <footer>
+        <p>&copy;<span id="currentYear"></span> - Abraham Hennum - Missouri, USA</p>
+        <p id="lastModified"></p>
+        </footer>
+    </div>
 </body>
 </html>
