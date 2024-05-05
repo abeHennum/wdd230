@@ -5,6 +5,7 @@
     --header-color: #283618;
     --accent-color: #606c38;
     --text-color: black;
+    --card-color: #A3B18A;
 }
 
 body{
@@ -16,6 +17,7 @@ body{
 #content{
     max-width: 1024px; 
     margin: 0 auto; 
+    background-color: var(--card-color);
 }
 
 #topheader {
