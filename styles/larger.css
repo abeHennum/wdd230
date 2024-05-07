@@ -4,8 +4,16 @@
         flex-direction: row;
         justify-content: space-around;
     }
+
+    nav ul.open{
+        flex-direction: row;
+    }
+    
     #cards{
         display: grid;
         grid-template-columns: 2fr 1fr;
+    }
+    #menu-button{
+        display: none; 
     }
 }
