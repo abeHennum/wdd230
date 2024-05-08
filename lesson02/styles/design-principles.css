@@ -100,7 +100,7 @@ footer p{
 
      }
      #content{
-        max-width: auto; 
+        max-width: 0 auto; 
      }
 
      .card3{
