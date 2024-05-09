@@ -94,6 +94,10 @@ nav ul li:hover{
     background-color: var(--header-color);
 }
 
+a{
+    color: var(--header-color); 
+}
+
 nav ul li a {
     display: block;
     color: var(--backround-color);  
