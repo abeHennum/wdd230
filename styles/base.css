@@ -160,3 +160,7 @@ footer p{
 #content main hr{
     height: 3px; 
 }
+
+.map iframe{
+    width: 100%; 
+}
