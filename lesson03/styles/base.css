@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+
+
+:root{
+    --backround-color: #a3b18a;
+    --header-color: #a98467;
+    --accent-color:#dad7cd;
+    --text-color: black ;
+    --card-color: #3a5a40;
+}
+
+body{
+    font-family: "Sedan SC", "sans-serif";
+}
+
+#content{
+    text-align: center;
+}
+
+.backround-color p{
+    color: var(--backround-color);
+}
+
+.header-color p{
+    color: var(--header-color); 
+}
+
+.accent-color p{
+    color: var(--accent-color);
+}
+
+.text-color p{
+    color: var(--text-color); 
+}
+
+.card-color p{
+    color: var(--card-color);
+}
