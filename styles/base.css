@@ -14,6 +14,7 @@ body{
     color: var(--text-color);
 }
 
+
 #content{
     max-width: 1024px; 
     margin: 0 auto; 
@@ -163,4 +164,12 @@ footer p{
 
 .map iframe{
     width: 100%; 
+}
+
+#learning-activities a:visited{
+    color: black; 
+}
+
+#learning-activities a:hover{
+    color: black; 
 }
