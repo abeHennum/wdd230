@@ -3,54 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Shire Chamber Of Commerce">
-    <meta name="Author" content="Abe Hennum">
+    <meta name="description" content="WDD 230 - BYU Idaho - Spring 2024 - Chamber Project">
+    <meta name="author" content="Abe Hennum">
     <meta name="og:title" content="Shire Chamber Of Commerce">
     <meta name="og:type" content="website">
     <meta name="og:image" content="#image location">
     <meta name="og:url" content="https://abehennum.github.io/wdd230/chamber/index.html">
     <title>Shire Chamber of Commerce</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/header-footer.js" defer></script>
+    <script src="scripts/hamburger.js" defer></script>
 </head>
 <body>
     <div id="content">
-    <header>
+    <header> 
+    <div id="top-header">
+        <img src="https://picsum.photos/150/150">
+        <h1>Shire Chamber Of Commerce</h1>
+        <button id="menu-button"></button> 
         <nav>
-
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Discovery</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+            </ul>
         </nav>
-    </header>
-    <div id="hero-box">
-
     </div>
-
-        <section class="current-events">
-
-        </section>
-
-        <section class="weather-card">
-
-        </section>
-
-        <div id="spotlight">
-            <section class="ad-1">
-
-            </section>
-            <section class="ad-2">
-
-            </section>
-            <section class="ad-3">
-
-            </section>
-
-        </div>
+    </header>
 
     <main>
 
+        <section class="hero">
+            <img src="https://picsum.photos/800/400" alt="hero image">
+            <button>Call to Action!</button>
+        </section>
+        <section class="events">
+            <h3>Events</h3>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem obcaecati maiores cum illum doloremque veritatis officiis adipisci quae deleniti, est ipsum! Commodi praesentium maxime vitae magnam laudantium et asperiores! Iste recusandae ab eligendi, molestias, provident aliquam eveniet, dolores porro hic a iusto. Ducimus cupiditate voluptas corporis ipsa ipsum laudantium atque itaque voluptates dolorum voluptate, officiis eveniet, aut repellendus sequi! Nihil, doloremque labore eaque officia sint minus nemo adipisci rerum! Dolores nesciunt iusto sint libero eligendi, pariatur fuga repudiandae maiores minus non, aspernatur numquam et tempora sequi, ad distinctio. Beatae explicabo debitis nesciunt? Sed, eligendi optio commodi tenetur nobis animi veritatis.</p>
+        </section>
+        <section class="weather">
+            <h3>Weather</h3>
+            <hr>
+            <p>current condition: ugly</p>
+            <p>current temp: 100&deg;F</p>
+        </section>
+        <section class="spotlights">
+            <section class="spotlight spotlight1">
+                <h3>Spotlight 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, incidunt et rem, dolorem voluptate enim cupiditate reiciendis esse, officia repudiandae a dolores. Reprehenderit ex repudiandae officiis ea incidunt nihil atque quod, doloribus maxime natus beatae. Minima nostrum in praesentium neque obcaecati modi quod sequi natus quaerat, quos eligendi nemo suscipit.</p>
+            </section>
+            <section class="spotlight spotlight2">
+                <h3>Spotlight 2</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum facilis iste aut totam! Quo, non modi, expedita saepe mollitia minima eius alias reiciendis exercitationem quos doloribus, dicta iure? Enim optio deserunt laborum laudantium numquam quo, tempora velit odit nesciunt illum modi atque. Repudiandae labore sunt delectus, quisquam hic error! Distinctio!</p>
+            </section>
+            <section class="spotlight spotlight3">
+                <h3>Spotlight 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum voluptatum quod, earum harum accusamus hic quidem a qui reprehenderit numquam aperiam, dicta culpa odit tempore dignissimos quasi id, labore eius itaque inventore? Temporibus ratione exercitationem adipisci, ipsam, cumque quas nobis ex, dolorum corrupti totam accusamus numquam voluptatibus quae minus quod.</p>
+            </section>
+        </div>
     </main>
 
     <footer>
-        <p>Abe Hennum</p> 
-        <p>Contact Info</p>
-        <p>last modified</p>
+       <img src="https://picsum.photos/100/100" alt="logo image">
+       <p>Shire Chamber Of Commerce</p>
+       <p>main 123</p>
+       <p>teton id 292983</p>
+       <p>klajsdfdklj@.org</p>
+       <hr>
+       <p>&copy;<span id="currentYear"></span> Abe Hennum</p>
+       <p>WDD 230 Project</p>
+       <p>Last Modified: <span id="lastModified"></span></p>
     </footer>
     </div>      
 </body>

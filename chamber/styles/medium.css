@@ -1,0 +1,16 @@
+@media screen and (min-width:900px){
+ 
+ #menu-button{
+    display: none
+ }
+
+ nav ul{
+    display: block; 
+    display: flex; 
+    justify-content: space-between;
+ }
+
+ #top-header{
+    align-items: center; 
+ }
+}

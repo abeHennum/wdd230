@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+
+:root{
+    --backround-color: #a3b18a;
+    --header-color: #a98467;
+    --accent-color:#dad7cd;
+    --text-color: black ;
+    --card-color: #3a5a40;
+}
+
+body{
+    font-family: 'Sedan SC', 'sans-serif'; 
+    align-items: center;
+    background-color: var(--accent-color);
+}
+
+
+header{
+    background-color: var(--header-color);
+}
+
+img{
+    margin: 20px; 
+    border-radius: 10px;
+}
+
+#top-header{
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+}
+
+#content{
+    max-width: 1024px;
+    margin: 0 auto;
+    text-align: center; 
+}
+
+ul{
+    list-style: none;
+    
+}
+
+
+nav ul{
+    text-align: center; 
+    display: none; 
+}
+
+nav ul li{
+    padding: 1rem;
+    width: 100%; 
+}
+
+nav ul li:hover{
+    background-color: var(--accent-color);
+}
+
+a{
+    text-decoration: none; 
+    color: black; 
+    font-size: 1.2rem;
+}
+
+nav ul.open{
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+#menu-button{
+    background-color: inherit ;
+    font-size: 2rem ;
+    padding: .5rem ; 
+    height: 4rem;
+}
+
+#menu-button::before{
+    content: "≡"; 
+}
+
+#menu-button.open::before{
+    content: "X";
+}
+
+nav{
+    background: var(--header-color)
+    
+}
+
+/* main{
+    display: grid; 
+    grid-template-columns: 1fr;
+} */
+
+.events{
+   background-color: var(--backround-color); 
+   margin: 1rem;
+   padding: 5px;
+   border-radius: 10px;
+}
+
+.weather{
+    background-color: var(--backround-color);
+    margin: 1rem;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.spotlight1{
+    background-color: var(--backround-color);
+    margin: 1rem;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.spotlight2{
+    background-color: var(--backround-color);
+    margin: 1rem;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.spotlight3{
+    background-color: var(--backround-color);
+    margin: 1rem;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: var(--header-color);
+    text-align: center;
+} 

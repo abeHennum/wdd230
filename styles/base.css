@@ -40,7 +40,7 @@ ul{
 
 nav ul{
     list-style: none;
-    text-align:center; 
+    text-align: center; 
     background-color: var(--backround-color);
     padding-inline-start: 0px;
     display: none; 

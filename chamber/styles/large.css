@@ -1,0 +1,26 @@
+@media screen and (min-width: 1024px){
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .hero{
+        grid-column: 1/4;
+    }
+
+    .events{
+        grid-column: 1/3;
+    }
+
+    .weather{
+        grid-column: 3/4; 
+    }
+    
+    .spotlights{
+        grid-column: 1/4;
+        display: flex; 
+    }
+    .spotlight{
+        width: 100%;
+    }
+}
