@@ -17,6 +17,7 @@ body{
 
 header{
     background-color: var(--header-color);
+    border-radius: 10px;
 }
 
 img{
@@ -132,4 +133,15 @@ nav{
 footer{
     background-color: var(--header-color);
     text-align: center;
+    
 } 
+
+.hero{
+    position: relative; 
+}
+
+#call{
+    position: absolute;
+    top: 30px;
+    left: 30px; 
+}
