@@ -1,8 +1,21 @@
-@media screen and (min-width:900px){
+@media screen and (min-width:800px){
  
  #menu-button{
     display: none
  }
+
+ #navbar{     
+   display: flex;
+   flex-direction: row;
+}
+#navbar.open{     
+   display: flex;
+   flex-direction: row;
+}
+
+.event-card{
+   width: 100%; 
+}
 
  nav ul{
     display: block; 
