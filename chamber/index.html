@@ -17,12 +17,13 @@
     <link rel="stylesheet" href="styles/large.css">
     <script src="scripts/header-footer.js" defer></script>
     <script src="scripts/hamburger.js" defer></script>
+    <script src="scripts/windchill.js" defer></script>
 </head>
 <body>
 <div id="content">
     <header> 
     <!-- <div id="top-header"> -->
-        <div><img src="images/the-shire.png" alt="header-image"></div>
+        <div><img src="images/the-shire.webp" alt="header-image"></div>
         <h1>Shire Chamber Of Commerce</h1>
         <button id="dark-mode"></button>
     <!-- </div> -->
@@ -60,8 +61,10 @@
             <h3>Weather</h3>
             <div class="weather-card">
                 <img src="images/sunny.png" alt="weather-image">
-                <p>current condition: ugly</p>
-                <p>current temp: 100&deg;F</p>
+                <p>current condition: <span id="current-conditions">ugly</span></p>
+                <p>current temp: <span id="temperature">32</span>&deg;F</p>
+                <p>current Wind: <span id="windspeed">7 mph</span></p>
+                <p>current Windchill: <span id="windchill"></span></p>
             </div>
         </section>
         <section class="spotlights">

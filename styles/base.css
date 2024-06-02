@@ -173,3 +173,23 @@ footer p{
 #learning-activities a:hover{
     color: black; 
 }
+
+.temple{
+    text-align: center;
+    position: relative;
+}
+
+.temple img{
+    border: 2px solid black; 
+}
+
+.temple p {
+    position: absolute;
+    top: 2rem;
+    left: 5rem;
+    background-color: white;
+    color: black;
+    padding: .5rem;
+    border: 1px black solid;
+    border-radius: 4px;
+}
