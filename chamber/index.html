@@ -39,7 +39,13 @@
     </nav>
     <main>
         <section class="hero">
-            <img src="images/hero-image.jpg" alt="hero image">
+            <picture>
+                <source media="(max-width: 800px)" srcset="images/wdd230-org-small.webp">
+                <source media="(max-width: 1024px)" srcset="images/wdd230-org-medium.webp">
+                <img src="images/wdd230-org-large.webp" alt="large Image">
+            </picture>
+            <p></p>
+            <!-- <img src="images/hero-image.jpg" alt="hero image"> -->
             <button id="call">Call to Action!</button>
         </section>
         <section class="events">

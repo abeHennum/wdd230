@@ -241,3 +241,10 @@ footer{
 #dark-mode.dark::before{
     content: '☀';
 }
+
+.hero p::before {
+    content: "small";
+    background-color: grey;
+    opacity: .5;
+    font-size: 2rem;
+}

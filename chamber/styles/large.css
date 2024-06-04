@@ -36,4 +36,8 @@
     .main-footer img{
         margin: 1rem; 
     }
+
+    .hero p::before{
+        content: "large";
+    }
 }
