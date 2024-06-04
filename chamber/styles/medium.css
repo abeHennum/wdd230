@@ -32,8 +32,9 @@ nav{
    justify-content: space-around;
    width: 100%; 
  }
-}
 
-.hero p::before{
+ .hero p::before{
    content: "medium";
 }
+}
+

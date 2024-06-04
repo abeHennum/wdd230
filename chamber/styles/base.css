@@ -242,6 +242,12 @@ footer{
     content: '☀';
 }
 
+.hero p {
+    position: absolute; 
+    top: 1rem;
+    right:1rem;
+}
+
 .hero p::before {
     content: "small";
     background-color: grey;
