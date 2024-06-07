@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230 - BYU Idaho - Spring 2024 - Chamber Project">
+    <meta name="author" content="Abe Hennum">
+    <meta name="og:title" content="Shire Chamber Of Commerce - Discover">
+    <meta name="og:type" content="website">
+    <meta name="og:image" content="#image location">
+    <meta name="og:url" content="https://abehennum.github.io/wdd230/chamber/discover.html">
+    <title>Shire Chamber of Commerce</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/header-footer.js" defer></script>
+    <script src="scripts/hamburger.js" defer></script>
+    <script src="scripts/discover.js" defer></script>
+</head>
+<body>
+<div id="content">
+    <header> 
+    <!-- <div id="top-header"> -->
+        <div><img src="images/the-shire.webp" alt="header-image"></div>
+        <h1>Shire Chamber Of Commerce</h1>
+        <button id="dark-mode"></button>
+    <!-- </div> -->
+    </header>
+    <nav>
+        <button id="menu-button"></button> 
+        <ul id="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Discovery</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join</a></li>
+        </ul>
+    </nav>
+
+    <main class="discover">
+       <div><p id="discover-message"></p></div>
+       <div>
+        <figure>
+            <img src="https://picsum.photos/400/400" alt="placeholder" height="400" loading="lazy">
+            <figcaption>Placeholder Image</ficaption>
+        </figure>
+       </div>
+    </main>
+
+    <footer>
+        <div class="main-footer">
+            <div id="footer-img">
+                <img src="images/the-shire.png" alt="logo image">
+            </div>
+            <div>
+                <p>Shire Chamber Of Commerce</p>
+                <p>501 Buckland Rd</p>
+                <p>Hinuera, Matamata</p>
+                <a><p>info@shirechamberofcommerce.org</p></a> 
+            </div>
+        </div>
+        <div class="base-footer">
+            <p>&copy;<span id="currentYear"></span> Abe Hennum</p>
+            <p>WDD 230 Project</p>
+            <p>Last Modified: <span id="lastModified"></span></p>
+            <!-- Photo by ERIC MUFASA: https://www.pexels.com/photo/sliced-white-and-pink-icing-covered-cake-on-white-plate-with-silver-colored-fork-1414234/ -->
+            <!-- Photo by Tatiana Syrikova: https://www.pexels.com/photo/hotel-schloss-fernsteinsee-3934022/ -->
+        </div>     
+    </footer>
+</div>      
+</body>
+</html>
