@@ -262,6 +262,7 @@ footer{
     margin-bottom: 10px;
     border-radius: 10px;
     padding: 10px;
+    background-color: var(--card-color);
 }
 
 #discover-message{
@@ -269,6 +270,7 @@ footer{
     padding: 15px;
     font-size: 1.5rem;
     border-radius: 10px;
+    background-color: var(--card-color);
 }
 
 
