@@ -36,5 +36,40 @@ nav{
  .hero p::before{
    content: "medium";
 }
+
+/* Discover page */
+
+.discover{
+   display: grid; 
+   grid-template-columns: 1fr 3fr; 
+   justify-content: center;
+
+}
+
+#discover-images figure img:hover{
+   box-shadow: 0 0 50px #333;
+   /* rotate: .05turn;
+	border: 1px solid rgba(0,0,0,.3);
+	padding: 1px; */
+
+}
+
+#discover-images figure img{
+   border-radius: 15px 150px; 
+}
+
+#sidebar-content{
+   grid-column: 1/2;
+   align-items: center;
+}
+
+.sidebar:hover{
+   box-shadow: 0 0 50px #333; 
+}
+
+#discover-message:hover{
+   box-shadow: 0 0 50px #333; 
+}
+
 }
 
