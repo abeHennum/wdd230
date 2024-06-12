@@ -273,4 +273,11 @@ footer{
     background-color: var(--card-color);
 }
 
+#sidebar-content{
+    color: var(--text-color);
+}
+
+#discover-images{
+    color: var(--text-color);
+}
 

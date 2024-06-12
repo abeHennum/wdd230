@@ -47,7 +47,7 @@ nav{
 }
 
 #discover-images figure img:hover{
-   box-shadow: 0 0 50px #333;
+   box-shadow: 0 0 50px var(--text-color);
    /* rotate: .05turn;
 	border: 1px solid rgba(0,0,0,.3);
 	padding: 1px; */
@@ -64,11 +64,11 @@ nav{
 }
 
 .sidebar:hover{
-   box-shadow: 0 0 50px #333; 
+   box-shadow: 0 0 50px var(--text-color); 
 }
 
 #discover-message:hover{
-   box-shadow: 0 0 50px #333; 
+   box-shadow: 0 0 50px var(--text-color); 
 }
 
 }

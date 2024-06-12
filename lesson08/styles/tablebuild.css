@@ -1,0 +1,39 @@
+body{
+    align-items: center;
+}
+
+table{
+    border-collapse: collapse;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 3rem; 
+    margin: 0 auto;
+}
+
+caption{
+    caption-side: bottom;
+    font-size: 1rem;
+}
+
+thead{
+    background-color: black;
+    color: white;
+}
+
+thead tr:nth-child(2) td{
+    background-color: darkslategray;
+}
+
+thead tr:nth-child(2) td:nth-child(1){
+    background-color: black;
+}
+
+tbody tr:nth-child(even){
+    background-color: lightgrey;
+}
+
+tbody td{
+    border: 1px grey solid;
+    padding: .5rem;
+}
+
