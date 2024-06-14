@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
 
 :root{
     --backround-color: #fefae0 ;
@@ -192,4 +192,25 @@ footer p{
     padding: .5rem;
     border: 1px black solid;
     border-radius: 4px;
+}
+
+/* form css */
+
+label{
+    display: block; 
+}
+
+input{
+    display: block; 
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    padding: .7rem;
+}
+
+button{
+    font-size: 5rem;
+    background-color: var(--header-color);
+    padding: .3rem;
+    border-radius: 3px;
+    color: white; 
 }

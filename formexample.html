@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="WDD 230 - Web Frontend Development - Abraham Hennum - Form Example"/>
+    <meta name="author" content="Abraham Hennum" />
+    <meta name="og:title" content="WDD230 Home Page for Abe Hennum" />
+    <meta name="og:type" content="website" />
+    <meta name="og:image" content="#image location" />
+    <meta name="og:url" content="https://abehennum.github.io/wdd230/formexample.html"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+    <link rel="stylesheet" type="text/css" href="styles/base.css"/>
+    <link rel="stylesheet" type="text/css" href="styles/larger.css"/>
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/hamburger.js" defer></script>
+    <script src="scripts/visits.js" defer></script>
+    <script src="scripts/form.js" defer></script>
+    <link rel="icon" href="favicon.ico"/>
+    <title>Abraham Hennum - WDD 230 - Web Frontend Development - Form Example</title>
+  </head>
+  <body>
+    <div id="content">
+      <header>
+        <div id="topheader">
+          <img src="images/headshot.webp" alt="Abe Hennum mugshot"/>
+          <h1>Abraham Hennum</h1>
+        </div>
+        <button id="menu-button"></button>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="lesson03/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="chamber/">Chamber</a></li>
+            <li><a href="https://www.byui.edu" target="_blank">BYU-Idaho</a></li>
+            <li><a href="https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/130?lang=eng&id=p20-p21#p20" target="_blank">Scripture</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="formexample-main">
+        <form action="record.html" method="get">
+            <label>Username:<sup class="red">*</sup>
+                <input type="text" name="username" id="username" autofocus required>
+            </label>
+            <label>Password:<sup class="red">*</sup> (at least 8 alphanumeric char)
+                <input type="password" name="password" id="password" required pattern="[A-Za-z0-9]{8,}">
+            </label>
+            <label for="confirm">Confirm:<sup class="red">*</sup><span id="message"></span>
+                <input type="password" name="confirm" id="confirm" required pattern="[A-Za-z0-9]{8,}">
+            </label>
+            <label>Email: <sup class="red">*</sup>
+                <input type="email" name="email" id="email" required pattern=".+@byui\.edu">
+            </label>
+            <label>Rating:
+                <input type="range" min="" max="10" steps="1">    
+            </label>
+            <button type="submit">Rate My Page!</button>
+        </form>
+      </main>
+      <footer>
+        <p> &copy; <span id="currentYear">2024</span> - Abraham Hennum - Missouri, USA </p>
+        <p id="lastModified"></p>
+      </footer>
+    </div>
+  </body>
+</html>
