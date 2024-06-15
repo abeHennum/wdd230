@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="WDD 230 - Web Frontend Development - Abraham Hennum - Form Example"/>
     <meta name="author" content="Abraham Hennum" />
@@ -40,16 +40,16 @@
       <main class="formexample-main">
         <form action="record.html" method="get">
             <label>Username:<sup class="red">*</sup>
-                <input type="text" name="username" id="username" autofocus required>
+                <input type="text" title="Enter a username" name="username" id="username" autofocus required>
             </label>
             <label>Password:<sup class="red">*</sup> (at least 8 alphanumeric char)
-                <input type="password" name="password" id="password" required pattern="[A-Za-z0-9]{8,}">
+                <input type="password" title="Enter a password" name="password" id="password" required pattern="[A-Za-z0-9]{8,}">
             </label>
             <label for="confirm">Confirm:<sup class="red">*</sup><span id="message"></span>
-                <input type="password" name="confirm" id="confirm" required pattern="[A-Za-z0-9]{8,}">
+                <input type="password" title="Confirm password" name="confirm" id="confirm" required pattern="[A-Za-z0-9]{8,}">
             </label>
             <label>Email: <sup class="red">*</sup>
-                <input type="email" name="email" id="email" required pattern=".+@byui\.edu">
+                <input type="email" title="A valid email address" name="email" id="email" required pattern=".+@byui\.edu">
             </label>
             <label>Rating:
                 <input type="range" min="" max="10" steps="1">    
