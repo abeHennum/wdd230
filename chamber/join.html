@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230 - BYU Idaho - Spring 2024 - Chamber Project">
+    <meta name="author" content="Abe Hennum">
+    <meta name="og:title" content="Shire Chamber Of Commerce - Join Form">
+    <meta name="og:type" content="website">
+    <meta name="og:image" content="#image location">
+    <meta name="og:url" content="https://abehennum.github.io/wdd230/chamber/join.html">
+    <title>Shire Chamber of Commerce - Join</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/header-footer.js" defer></script>
+    <script src="scripts/hamburger.js" defer></script>
+    <script src="scripts/windchill.js" defer></script>
+</head>
+<body>
+<div id="content">
+    <header> 
+    <!-- <div id="top-header"> -->
+        <div><img src="images/the-shire.webp" alt="header-image"></div>
+        <h1>Shire Chamber Of Commerce</h1>
+        <button id="dark-mode"></button>
+    <!-- </div> -->
+    </header>
+    <nav>
+        <button id="menu-button"></button> 
+        <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discovery</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+        </ul>
+    </nav>
+    <main class="form-1">
+      <form method="get" action="thankyou.html">
+          <label class="label label-1"><div id="prompt">First Name<sup class="red">*</sup></div>
+              <input type="text" name="first-name" id="first-name" title="Enter first name" autofocus required>
+          </label>
+      
+          <label class="label label-2"><div id="prompt">Last Name<sup class="red">*</sup></div>
+              <input type="text" name="last-name" id="last-name" title="Enter last name" required>
+          </label>
+      
+          <label class="label label-3"><div id="prompt">Title/Position<sup class="red">*</sup></div>
+              <input type="text" name="title-position" id="title-position" title="Enter title/position" pattern="[A-Za-z0-9]{7,}" required>
+          </label>
+      
+          <label class="label label-4"><div id="prompt">Email Address<sup class="red">*</sup></div>
+              <input type="email" name="email" id="email" title="Enter a valid email address" placeholder="abehennum@gmail.com" required>
+          </label>
+      
+          <label class="label label-5"><div id="prompt">Phone Number<sup class="red">*</sup></div>
+              <input type="tel" name="phone" id="phone" title="Enter a phone number" required>
+          </label>
+      
+          <label class="label label-6"><div id="prompt">Business/Organization Name<sup class="red">*</sup></div>
+              <input type="text" name="business" id="business" title="Enter business/organization name" required>
+          </label>
+      
+          <label class="label label-7"><div id="prompt">Membership Level</div>
+            <select name="membership" id="membership">
+                <option value="no-selection">Select membership</option>
+                <option value="np">NP Membership</option>
+                <option value="bronze">Bronze Membership</option>
+                <option value="silver">Silver Memebership</option>
+                <option value="gold">Gold Membership</option>
+            </select>
+          </label>
+      
+          <label class="label label-8"><div id="prompt">Business Description</div>
+              <input type="textarea" name="desctiprion" id="description" rows="5" columns="15">
+          </label>
+      
+          <label class="label label-9">
+              <input type="hidden" name="time" id="time"> 
+          </label>
+      
+          <button type="submit">Join Chamber!</button>
+      </form>
+
+      <section id="membership-info">
+        <h1 class="benefits">BENEFITS</h1>
+        <div id="np">
+            <h2>Non Profit</h2>
+            <p>This membership type is for any business that is non profit and will only include a listing on the shires chamber of commerce</p>
+        </div>
+
+        <div id="bronze">
+            <h2>Bronze</h2>
+            <p><b>Basic Recognition:</b> Members receive acknowledgment as supporters of the Chamber.</p>
+            <p><b>Listing:</b> Their business name and contact information are listed on the Chamber's website.</p>
+            <p><b>Networking Opportunities:</b> Access to Chamber events and networking functions.</p>
+            <p><b>Visibility:</b> Increased visibility within the local business community through Chamber communications and events.</p>
+        </div>
+
+        <div id="silver">
+            <h2>Silver</h2>
+            <p><b>Enhanced Visibility:</b> Higher placement and more prominent recognition on the Chamber's website.</p>
+            <p><b>Marketing Opportunities:</b> Opportunity to include promotional materials or special offers in Chamber communications.</p>
+            <p><b>Events Access:</b> Priority access to certain Chamber events or discounted attendance fees.</p>
+            <p><b>Recognition:</b> Silver members may receive a certificate or badge for display.</p>
+        </div>
+
+        <div id="gold">
+            <h2>Gold</h2>
+            <p><b>Top-tier Recognition:</b> Highest level of visibility and recognition as a leading supporter of the Chamber.</p>
+            <p><b>Exclusive Benefits:</b> Access to exclusive events or meetings with influential business leaders.</p>
+            <p>Premium Marketing: Highlighted in Chamber newsletters, social media, and press releases.</p>
+            <p><b>Leadership Opportunities:</b> Invitation to participate in Chamber committees or advisory groups.</p>
+            <p><b>Special Awards:</b> Potential for special awards or honors at Chamber events.</p>
+        </div>
+      </section>
+      
+    </main>                   
+
+    <footer>
+        <div class="main-footer">
+            <div id="footer-img">
+                <img src="images/the-shire.png" alt="logo image">
+            </div>
+            <div>
+                <p>Shire Chamber Of Commerce</p>
+                <p>501 Buckland Rd</p>
+                <p>Hinuera, Matamata</p>
+                <a><p>info@shirechamberofcommerce.org</p></a> 
+            </div>
+        </div>
+        <div class="base-footer">
+            <p>&copy;<span id="currentYear"></span> Abe Hennum</p>
+            <p>WDD 230 Project</p>
+            <p>Last Modified: <span id="lastModified"></span></p>
+            <!-- Photo by ERIC MUFASA: https://www.pexels.com/photo/sliced-white-and-pink-icing-covered-cake-on-white-plate-with-silver-colored-fork-1414234/ -->
+            <!-- Photo by Tatiana Syrikova: https://www.pexels.com/photo/hotel-schloss-fernsteinsee-3934022/ -->
+        </div>     
+    </footer>
+</div>      
+</body>
+</html>

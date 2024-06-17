@@ -281,3 +281,90 @@ footer{
     color: var(--text-color);
 }
 
+/* join form css */
+
+form{
+    text-align: center;
+}
+
+.label{
+    display: block;
+    text-align:left;
+    padding-bottom: 1rem;
+    color: var(--text-color);
+    font-size: 1rem;
+}
+
+.label-1{
+    margin-top: 1.5rem;
+}
+
+#prompt{
+    font-size: 1.5rem;
+}
+
+input{
+    margin-bottom: 1rem;
+    height: 44px;
+    width: 100%;
+    max-width: 400px;
+}
+
+#first-name, #last-name, #title-position, #email, #phone, #business, #membership, #description{
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+}
+
+
+select{
+    margin-bottom: 1rem;
+    height: 44px;
+    width: 100%;
+    max-width: 400px;
+    font-size: 1rem;;
+}
+
+
+#membership-info{
+    background-color: var(--card-color);
+    border: solid 5px var(--nav-color);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    align-content: center;
+    border-radius: 10px;
+    color: var(--text-color);
+    padding: 1rem;
+}
+
+
+#np, #bronze, #silver, #gold{
+    padding-bottom: .5rem;
+}
+
+sup{
+    color: red;
+}
+
+button[type="submit"]{
+    font-size: 3rem;
+    background-color: var(--card-color);
+    color: var(--text-color);
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.benefits{
+    padding-bottom: 1rem;
+    font-size: 2rem;
+}
+
+input:required{
+    border-bottom: red solid 5px;
+}
+
+input:required:valid{
+    border-bottom: green solid 5px;
+}
+
