@@ -371,3 +371,6 @@ input:required:valid{
     border-bottom: green solid 5px;
 }
 
+textarea{
+    padding: 1rem;
+}

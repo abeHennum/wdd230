@@ -1,0 +1,23 @@
+{
+    "family-name": "Hennums",
+    "move-in-date": "08/02/2008",
+    "number-of-members": 8,
+    "visited-by-bishoprick": true,
+    "members": [
+        {
+            "name": "Briar",
+            "gender": "Female",
+            "birthdate": "12/12/2000"
+        },
+        {
+            "name": "Abe",
+            "gender": "Male",
+            "birthdate": "07/17/2002"
+        },
+        {
+            "name": "Malachi",
+            "gender": "Male",
+            "birthdate": "18/11/2004"
+        }
+    ]
+}
