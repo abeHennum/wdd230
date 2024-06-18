@@ -1,23 +1,23 @@
 {
-    "family-name": "Hennums",
-    "move-in-date": "08/02/2008",
-    "number-of-members": 8,
-    "visited-by-bishoprick": true,
+    "familyName": "Hennums",
+    "moveInDate": "2008-08-02",
+    "numberOfMembers": 8,
+    "visitedByBishoprick": true,
     "members": [
         {
             "name": "Briar",
             "gender": "Female",
-            "birthdate": "12/12/2000"
+            "birthdate": "2000-12-12"
         },
         {
             "name": "Abe",
             "gender": "Male",
-            "birthdate": "07/17/2002"
+            "birthdate": "2002-17-07"
         },
         {
             "name": "Malachi",
             "gender": "Male",
-            "birthdate": "18/11/2004"
+            "birthdate": "2004-11-18"
         }
     ]
 }
