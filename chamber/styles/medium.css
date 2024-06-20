@@ -33,9 +33,9 @@ nav{
    width: 100%; 
  }
 
- .hero p::before{
+ /* .hero p::before{
    content: "medium";
-}
+} */
 
 /* Discover page */
 

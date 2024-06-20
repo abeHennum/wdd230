@@ -37,9 +37,9 @@
         margin: 1rem; 
     }
 
-    .hero p::before{
+    /* .hero p::before{
         content: "large";
-    }
+    } */
 
     /* join page css */
 

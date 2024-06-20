@@ -250,12 +250,12 @@ footer{
     right:1rem;
 }
 
-.hero p::before {
+/* .hero p::before {
     content: "small";
     background-color: grey;
     opacity: .5;
     font-size: 2rem;
-}
+} */
 
 /* Discover Page */
 
