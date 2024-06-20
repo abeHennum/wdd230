@@ -301,8 +301,13 @@ form{
     margin-top: 5rem;
 }
 
-#prompt{
+.label-8{
+    margin-bottom: 1rem;
+}
+
+.prompt{
     font-size: 1.5rem;
+    margin: auto;
 }
 
 input{
@@ -320,7 +325,7 @@ input{
 
 
 select{
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     height: 44px;
     width: 100%;
     max-width: 400px;
@@ -344,8 +349,9 @@ select{
     padding-bottom: .5rem;
 }
 
-sup{
+.red{
     color: red;
+    font-size: 1rem;
 }
 
 button[type="submit"]{
