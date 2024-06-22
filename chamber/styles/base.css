@@ -380,3 +380,24 @@ input:required:valid{
 textarea{
     padding: 1rem;
 }
+
+
+/* directory css */
+
+/* card view */
+
+
+
+nav{
+    margin-bottom: 5px;
+}
+
+section{
+    border: 5px solid var(--nav-color);
+    margin-bottom: 5px;
+}
+
+
+
+/* list view */
+
