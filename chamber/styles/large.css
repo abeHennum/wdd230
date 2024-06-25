@@ -1,5 +1,5 @@
 @media screen and (min-width: 1024px){
-    main{
+    #main-index{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         
@@ -50,8 +50,13 @@
     /* directory css */
     /* card view */
    
+    /* .directory-cards{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        justify-items: center;
+    } */
 
-
+   
   
 
     

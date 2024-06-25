@@ -5,7 +5,7 @@
             "address1" : "ADDRESS LINE 1",
             "address2" : "ADDRESS LINE 2",
             "phone" : "PHONE",
-            "websiteURL" : "WEBSITE",
+            "websiteURL" : "WEBSITE URL",
             "imageURL" : "",
             "membership" : "MEMBERSHIP"
         },
@@ -42,7 +42,7 @@
             "address2" : "Hamletville, Shireland",
             "phone" : "555-333-4444",
             "websiteURL" : "www.emberforge.com",
-            "imageURL" : "https://picsum.photos/200/200",
+            "imageURL" : "images/directory/ember-forge.webp",
             "membership" : "Silver"
         },
         {
@@ -51,7 +51,7 @@
             "address2" : "Shiretown, Shireland",
             "phone" : "555-234-5678",
             "websiteURL" : "www.shirewoodcrafts.com",
-            "imageURL" : "https://picsum.photos/200/200",
+            "imageURL" : "images/directory/crafts.webp",
             "membership" : "Bronze"
         },
         {
@@ -60,7 +60,7 @@
             "address2" : "Hillcrest, Shireland",
             "phone" : "555-345-6789",
             "websiteURL" : "www.crescentmotors.com",
-            "imageURL" : "https://picsum.photos/200/200",
+            "imageURL" : "images/directory/motor.webp",
             "membership" : "Silver"
         },
         {
@@ -69,7 +69,7 @@
             "address2" : "Snapshot City, Shireland",
             "phone" : "555-901-2345",
             "websiteURL" : "www.pixelperfectphoto.com",
-            "imageURL" : "https://picsum.photos/200/200",
+            "imageURL" : "images/directory/photography.webp",
             "membership" : "Silver"
         }
     ]

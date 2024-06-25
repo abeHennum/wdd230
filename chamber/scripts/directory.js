@@ -1,53 +1,62 @@
-const sections = document.querySelector('#sections');
+
+const url = "./data/members.json";
 
 const displayMembers = (members) => {
-    members.forEach((member) => {
-        let newsection = document.createElement("section");
-        newsection.innerHTML= `
-        <h3>${member.name}</h3>
-        <img src="${member.imageURL}" alt="${member.name} image" loading="lazy" height="200">
-        <h4>Address</h4>
-        <p>${member.address1} 
-        ${member.address2}</p>
-        <p>Phone: ${member.phone}</p>
-        <p>Website: ${member.websiteURL}</p>
-        <p>Membership Level: ${member.membership}</p>`
-        
-        sections.append(newsection)
-    });
+  const cards = document.querySelector(".directory-cards"); 
+
+  members.forEach((business) => {
+    let card = document.createElement("section");
+    card.innerHTML = `
+    <p>${business.name}</p>
+    <img src="${business.imageURL}">
+    <p>${business.address1}</p>
+    <p>${business.address2}</p>
+    <p><a class="card-button" href="${business.websiteURL}">website</a></p>
+    `;
+    cards.appendChild(card);
+  }); 
+  
+}; 
+
+
+
+async function getBusinessData() {
+  const response = await fetch(url);
+  if (response.ok) {
+    const data = await response.json();
+    displayMembers(data.members);
+
+  } else {
+    console.error("There was an error loading the data.");
+    const cards = document.querySelector("directory-cards");
+    cards.innerHTML = "<section><h1>There was an error loading the data</h1></section>";
+  }
 }
 
-async function getMembersData(){
-    const response = await fetch('data/members.json')
-    if(response.ok){
-        const data = await response.json()
-        console.table(data);
-        displayMembers(data.members)
+getBusinessData();
+
+
+
+
+
+var gridSelector = document.querySelector('#directory-grid');
+var listSelector = document.querySelector('#directory-list');
+var directoryData = document.querySelector('#directory-data');
+
+gridSelector.addEventListener('click', ()=>{
+    if (!gridSelector.classList.contains('active')){    
+        gridSelector.classList.add('active');
+        listSelector.classList.remove('active');
+        directoryData.classList.add('directory-cards')
+        directoryData.classList.remove('directory-list')
     }
-    else{
-        console.log('This doesnt work')
+});
+
+listSelector.addEventListener('click', ()=>{
+    if (!listSelector.classList.contains('active')){
+        listSelector.classList.add('active');
+        gridSelector.classList.remove('active');
+        directoryData.classList.add('directory-list')
+        directoryData.classList.remove('directory-cards')
     }
-}
-
-getMembersData()
-
-
-
-
-
-
-/*
-
-
- "name" : "Bywater Bakery",           
-            "address1" : "3 Baker Street 365",
-            "address2" : "Bywater, Shireland",
-            "phone" : "555-345-6789",
-            "websiteURL" : "www.bywaterbakery.com",
-            "imageURL" : "https://picsum.photos/200/200",
-            "membership" : "Gold"
-        },
-
-
-
-*/
+});
