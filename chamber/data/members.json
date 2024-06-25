@@ -71,6 +71,25 @@
             "websiteURL" : "www.pixelperfectphoto.com",
             "imageURL" : "images/directory/photography.webp",
             "membership" : "Silver"
+        },
+        {
+            "name" : "Pixel Perfect Photography",           
+            "address1" : "543 Camera Street 678",
+            "address2" : "Snapshot City, Shireland",
+            "phone" : "555-901-2345",
+            "websiteURL" : "www.pixelperfectphoto.com",
+            "imageURL" : "images/directory/photography.webp",
+            "membership" : "Silver"
+        },
+        {
+            "name" : "Pixel Perfect Photography",           
+            "address1" : "543 Camera Street 678",
+            "address2" : "Snapshot City, Shireland",
+            "phone" : "555-901-2345",
+            "websiteURL" : "www.pixelperfectphoto.com",
+            "imageURL" : "images/directory/photography.webp",
+            "membership" : "Silver"
         }
+        
     ]
 }
