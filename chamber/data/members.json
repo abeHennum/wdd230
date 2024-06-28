@@ -73,21 +73,21 @@
             "membership" : "Silver"
         },
         {
-            "name" : "Pixel Perfect Photography",           
-            "address1" : "543 Camera Street 678",
-            "address2" : "Snapshot City, Shireland",
-            "phone" : "555-901-2345",
-            "websiteURL" : "www.pixelperfectphoto.com",
-            "imageURL" : "images/directory/photography.webp",
-            "membership" : "Silver"
+            "name" : "Brandybuck Books",           
+            "address1" : "12 Bucklebury Road 300",
+            "address2" : "Hobbiton, The Shire",
+            "phone" : "234-567-8901",
+            "websiteURL" : "www.brandybuckbooks.shire",
+            "imageURL" : "",
+            "membership" : "Gold"
         },
         {
-            "name" : "Pixel Perfect Photography",           
-            "address1" : "543 Camera Street 678",
-            "address2" : "Snapshot City, Shireland",
-            "phone" : "555-901-2345",
-            "websiteURL" : "www.pixelperfectphoto.com",
-            "imageURL" : "images/directory/photography.webp",
+            "name" : "Cotton's Clothing",           
+            "address1" : "5 Greenfields Lane, Hobbiton 946",
+            "address2" : "Hobbiton, The Shire",
+            "phone" : "234-567-8902",
+            "websiteURL" : "www.cottonsclothing.shire",
+            "imageURL" : "",
             "membership" : "Silver"
         }
         

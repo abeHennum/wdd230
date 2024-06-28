@@ -497,3 +497,24 @@ textarea{
 #directory-data section:nth-child(1){
     font-weight: bold;
 }
+
+/* Meet and Greet */
+
+.meet-greet{
+    display: none;
+    background-color: var(--card-color);
+    text-align: center;
+    grid-column: 1/4;
+}
+
+.meet-greet.show{
+    display: block;
+   
+
+}
+
+.meet-greet button{
+    background-color: var(--accent-color);
+    color: white;
+    margin-left: 5px;
+}

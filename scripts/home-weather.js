@@ -6,8 +6,6 @@ const weatherIcon = document.querySelector('#weather-icon');
 
 function displayResults(data){
 
-
-
     currentWeather.innerHTML = `${data.main.temp}&deg;F - ${data.weather[0].main}`; 
     
     weatherIcon.setAttribute("src","https://openweathermap.org/img/wn/"+data.weather[0].icon+".png");
@@ -30,3 +28,9 @@ async function apiFetch() {
   }
   
   apiFetch();
+
+
+
+
+
+  
