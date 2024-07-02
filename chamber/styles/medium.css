@@ -63,13 +63,13 @@ nav{
    align-items: center;
 }
 
-.sidebar:hover{
+/* .sidebar:hover{
    box-shadow: 0 0 50px var(--text-color); 
 }
 
 #discover-message:hover{
    box-shadow: 0 0 50px var(--text-color); 
-}
+}  */
 
 
 /* join form css */
