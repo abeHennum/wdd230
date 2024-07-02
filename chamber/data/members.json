@@ -1,14 +1,6 @@
 {
     "members" : [
-        {
-            "name" : "NAME",           
-            "address1" : "ADDRESS LINE 1",
-            "address2" : "ADDRESS LINE 2",
-            "phone" : "PHONE",
-            "websiteURL" : "WEBSITE URL",
-            "imageURL" : "",
-            "membership" : "MEMBERSHIP"
-        },
+
         {
             "name" : "Bywater Bakery",           
             "address1" : "3 Baker Street 365",
@@ -78,7 +70,7 @@
             "address2" : "Hobbiton, The Shire",
             "phone" : "234-567-8901",
             "websiteURL" : "www.brandybuckbooks.shire",
-            "imageURL" : "",
+            "imageURL" : "images/directory/brandybucks-books.webp",
             "membership" : "Gold"
         },
         {
@@ -87,9 +79,11 @@
             "address2" : "Hobbiton, The Shire",
             "phone" : "234-567-8902",
             "websiteURL" : "www.cottonsclothing.shire",
-            "imageURL" : "",
+            "imageURL" : "images/directory/cottons-clothing.webp",
             "membership" : "Silver"
         }
         
     ]
 }
+
+

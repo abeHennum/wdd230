@@ -9,9 +9,11 @@ const displayMembers = (members) => {
     card.innerHTML = `
     <p>${business.name}</p>
     <img src="${business.imageURL}">
-    <p>${business.address1}</p>
-    <p>${business.address2}</p>
-    <p><a class="card-button" href="${business.websiteURL}">website</a></p>
+    <p>${business.address1} ${business.address2}</p>
+    
+    <p>Phone: ${business.phone}</p>
+    <p>Membership: ${business.membership}</p>
+    
     `;
     cards.appendChild(card);
   }); 

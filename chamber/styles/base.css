@@ -413,7 +413,7 @@ textarea{
 
 .directory-cards{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     justify-items: center;
     grid-gap: 20px;
     margin-bottom: 20px;
@@ -434,9 +434,9 @@ textarea{
 }
 
 
-.directory-cards section:nth-child(1){
+/* .directory-cards section:nth-child(1){
     display: none;
-}
+} */
 
 .directory-cards section img{
     border-radius: 10px;
@@ -494,9 +494,13 @@ textarea{
     background-color: var(--card-color)
 }
 
-#directory-data section:nth-child(1){
-    font-weight: bold;
+.directory-list section{
+    align-items: center;
 }
+
+/* #directory-data section:nth-child(1){
+    font-weight: bold;
+} */
 
 /* Meet and Greet */
 
