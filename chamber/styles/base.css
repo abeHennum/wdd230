@@ -469,6 +469,9 @@ textarea{
     display: none;
 }
 
+.directory-list .show{
+    display: none;
+}
 
 .directory-list section {
     display: grid;

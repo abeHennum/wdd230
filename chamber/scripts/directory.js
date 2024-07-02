@@ -10,10 +10,9 @@ const displayMembers = (members) => {
     <p>${business.name}</p>
     <img src="${business.imageURL}">
     <p>${business.address1} ${business.address2}</p>
-    
     <p>Phone: ${business.phone}</p>
     <p>Membership: ${business.membership}</p>
-    
+    <p class="show"><a class="card-button" href="${business.websiteURL}">website</a></p>
     `;
     cards.appendChild(card);
   }); 
