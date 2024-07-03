@@ -1,0 +1,19 @@
+{
+    "spotlights" : [
+        {
+            "name" : "Bilbo Baggins",
+            "contributions" : "Frodo Baggins, celebrated for his pivotal role in the Fellowship of the Ring, exemplifies courage and leadership. His efforts to destroy the One Ring not only saved Middle-earth but also inspired generations in the Shire with tales of resilience and determination.",
+            "membership" : "Diamond"
+        },
+        {
+            "name" : "Samwise Gamgee",
+            "contributions" : "Samwise Gamgee, beyond his role as Frodo's loyal companion, is a prominent advocate for environmental conservation in the Shire. His initiatives in sustainable gardening and community beautification projects have enriched the local landscape and fostered a deep appreciation for nature among hobbits.",
+            "membership" : "Emerald"
+        },
+        {
+            "name" : "Legolas Greenleaf",
+            "contributions" : "Legolas Greenleaf, renowned for his exceptional archery skills and keen insight, contributes to the Shire community through his knowledge of elvish lore and diplomacy. He promotes cultural exchange and understanding between elves and hobbits, enhancing unity and mutual respect in the region.",
+            "membership" : "Opal"
+        }
+    ]
+}
