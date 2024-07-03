@@ -250,6 +250,10 @@ footer{
     right:1rem;
 }
 
+.join-button{
+    color:black;
+} 
+
 /* .hero p::before {
     content: "small";
     background-color: grey;
