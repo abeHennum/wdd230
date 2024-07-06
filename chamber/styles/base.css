@@ -364,7 +364,7 @@ textarea{
 }
 
 .red{
-    color: blue;
+    color: rgb(181, 0, 0);
     font-size: 2rem;
 }
 
