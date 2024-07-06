@@ -312,6 +312,8 @@ form{
 .prompt{
     font-size: 1.5rem;
     margin: auto;
+    display: block; 
+    margin-left: 15px;
 }
 
 input{
@@ -319,6 +321,8 @@ input{
     height: 44px;
     width: 100%;
     max-width: 400px;
+    margin-left: 15px;
+
 }
 
 #first-name, #last-name, #title-position, #email, #phone, #business, #membership, #description{
@@ -333,7 +337,8 @@ select{
     height: 44px;
     width: 100%;
     max-width: 400px;
-    font-size: 1rem;;
+    font-size: 1rem;
+    margin-left: 15px;
 }
 
 
@@ -346,6 +351,11 @@ select{
     border-radius: 10px;
     color: var(--text-color);
     padding: 1rem;
+    margin-left: 10px;
+}
+
+textarea{
+    margin-left: 15px;
 }
 
 
@@ -366,6 +376,7 @@ button[type="submit"]{
     padding: 1rem;
     border-radius: 10px;
     display: block;
+    margin-left: 15px;
 }
 
 .benefits{
