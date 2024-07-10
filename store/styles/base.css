@@ -1,0 +1,13 @@
+:root{
+    --header-color: #7151a9;
+    --background-color: #e5e5e5;
+    --card-color: #dac7ff;
+}
+
+body{
+    background-color: var(--background-color);
+}
+
+header{
+    background-color: var(--header-color);
+}
