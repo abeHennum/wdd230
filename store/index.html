@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/hamburger.js" defer></script>
 </head>
     <body>
         <div id="content">
@@ -15,11 +16,12 @@
                 <h1>Vinly Fountain</h1>
                 <div id="logo"><img src="images/vinyl-fountain-logo.png" alt="vinyl-fountain-logo"></div>
                 <nav>
-                    <ul id="navbar">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="products.html">Products</a></li>
-                        <li><a href="order.html">Order</a></li>
-                    </ul> 
+                    <button id="menu-button"></button>
+                        <ul id="navbar">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="products.html">Products</a></li>
+                            <li><a href="order.html">Order</a></li>
+                        </ul> 
                 </nav> 
             </header>
                
@@ -32,32 +34,34 @@
                         <img src="images/hero-image-large.webp" alt="hero-image">
                     </picture>
                 </section>
-
+            <div id="title-1">
                 <h1 class="bestsellers">Bestsellers</h1>
-
+            </div>
                 <section class="best-sellers">
                     <div id="best-1">
                         <h4>title</h4>
-                        <img src="https://picsum.photos/200/200">
+                        <img src="https://picsum.photos/200/200" alt="bestseller-1">
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi corporis odit quod, accusantium nostrum recusandae ut eius quis iusto nisi, unde, qui fugiat amet magni sunt nam! Laboriosam, nisi soluta.</p>
                     </div>
 
                     <div id="best-2">
                         <h4>title</h4>
-                        <img src="https://picsum.photos/200/200">
+                        <img src="https://picsum.photos/200/200" alt="bestseller-2">
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, in!</p>
                     </div>
                     
                     <div id="best-3">
                         <h4>title</h4>
-                        <img src="https://picsum.photos/200/200">
+                        <img src="https://picsum.photos/200/200" alt="bestseller-3">
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, in!</p>
                     </div>
                 </section>
 
-                <div>Weather</div>
+            <div id="title-2">
+                <h1 class="weather">Weather</h1>
+            </div>
 
-                <section class="weather">
+                <section class="weather-info">
                     <div id="current-weather">
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima inventore modi maiores nisi blanditiis debitis deleniti voluptatem ab asperiores dolores, nam magni consequatur reiciendis fugiat doloremque dolore, quidem qui non?</p>
                     </div>
@@ -67,7 +71,9 @@
                     </div>
                 </section>
 
-                <div>Info</div>
+                <div id="title-3">
+                    <h1 class="info-title">Info</h1>
+                </div>
 
                 <section class="info">
                     <div id="about">
@@ -81,7 +87,7 @@
 
             </main>
             <footer>
-
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, culpa. Provident doloribus id sit corrupti dolore fugiat possimus? A velit esse alias quaerat voluptates fuga saepe dolorem sapiente? Deleniti, tempora?</p>
             </footer>
         </div>
     </body>
