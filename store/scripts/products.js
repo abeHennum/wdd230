@@ -5,10 +5,10 @@ const displayProducts = (products) => {
     products.forEach((product) => {
         let newsection = document.createElement("section");
         newsection.innerHTML = `
-        <h2>${product.name}</h2>
-        <img src="${product.imageURL}" alt="${product.name} image" loading="lazy" height="400">
-        <p>Artist: ${product.artist}</p>
-        <p>Release Date: ${product.releasedate}</p>`
+        <h2 id="h2-products">${product.name}</h2>
+        <img id="product-image" src="${product.imageURL}" alt="${product.name} image" loading="lazy" height="400">
+        <p id="p-products">Artist: ${product.artist}</p>
+        <p id="p-products">Release Date: ${product.releasedate}</p>`
         
         cards.append(newsection)
     });

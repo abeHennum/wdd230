@@ -90,6 +90,27 @@
             "artist" : "Twenty One Pilots",
             "description" : "",
             "releasedate" : "Oct 5, 2018"
+        },
+        {
+            "name" : "LANY",
+            "imageURL" : "images/lany.webp",
+            "artist" : "LANY",
+            "description" : "",
+            "releasedate" : "June 30, 2017"
+        },
+        {
+            "name" : "Scorpion",
+            "imageURL" : "images/scorpion.webp",
+            "artist" : "Drake",
+            "description" : "",
+            "releasedate" : "June 29, 2018"
+        },
+        {
+            "name" : "Vessel",
+            "imageURL" : "images/vessel.webp",
+            "artist" : "Twenty One Pilots",
+            "description" : "",
+            "releasedate" : "Jan 8, 2013"
         }
 
 

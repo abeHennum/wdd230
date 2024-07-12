@@ -50,15 +50,17 @@ body{
     margin: 0 auto;
 }
 
-header{
-    
+
+/* header */
+#version-1{
     background-color: var(--header-color);
     color: white;
     align-items: center;
-    width: 100%; 
+    width: 100%;
     position: absolute;
-    z-index: 1;
-}
+    z-index: 1; 
+} 
+
 
 #order{
     font-size: 2rem;
@@ -171,4 +173,33 @@ h1{
 footer{
     background-color: var(--header-color);
     color: white;
+}
+
+
+/* Products page */
+
+header{
+    
+    background-color: var(--header-color);
+    color: white;
+    align-items: center;
+    width: 100%; 
+   
+}
+
+
+#cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)) ;
+    grid-gap: 5px;
+    text-align: center;
+}
+
+.products{
+    background-color: var(--card-color);
+}
+
+#product-image{
+    max-width: 200px;
+    max-height: 200px;
 }
