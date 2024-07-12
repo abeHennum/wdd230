@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     <script src="scripts/hamburger.js" defer></script>
+    <script src="scripts/footer.js" defer></script>
+    <script src="scripts/home-weather.js" defer></script>
 </head>
     <body>
         <div id="content">
@@ -37,8 +39,8 @@
             <div id="title-1">
                 <h1 class="bestsellers">Bestsellers</h1>
             </div>
-                <section class="best-sellers">
-                    <div id="best-1">
+           <!-- <section class="best-sellers">
+                     <div id="best-1">
                         <h4>title</h4>
                         <img src="https://picsum.photos/200/200" alt="bestseller-1">
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi corporis odit quod, accusantium nostrum recusandae ut eius quis iusto nisi, unde, qui fugiat amet magni sunt nam! Laboriosam, nisi soluta.</p>
@@ -54,8 +56,9 @@
                         <h4>title</h4>
                         <img src="https://picsum.photos/200/200" alt="bestseller-3">
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, in!</p>
-                    </div>
-                </section>
+                    </div> 
+                </section>  -->
+                <div id="cards"></div>
 
             <div id="title-2">
                 <h1 class="weather">Weather</h1>
@@ -63,7 +66,8 @@
 
                 <section class="weather-info">
                     <div id="current-weather">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima inventore modi maiores nisi blanditiis debitis deleniti voluptatem ab asperiores dolores, nam magni consequatur reiciendis fugiat doloremque dolore, quidem qui non?</p>
+                        <h3>Current Weather</h3>
+                        <p>Weather: <img id="weather-icon" alt="weather-icon"><span id="weather"></span></p>
                     </div>
 
                     <div id="three-day-forecast">
@@ -87,7 +91,11 @@
 
             </main>
             <footer>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, culpa. Provident doloribus id sit corrupti dolore fugiat possimus? A velit esse alias quaerat voluptates fuga saepe dolorem sapiente? Deleniti, tempora?</p>
+                <p>&copy;<span id="currentYear"></span> Abe Hennum</p>
+                <p>Last Modified: <span id="lastModified"></span></p>
+                <img src="images/twitter-copy.png">
+                <img src="images/instagram-logo.png">
+                <img src="images/facebook-icon.png">
             </footer>
         </div>
     </body>

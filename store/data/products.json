@@ -1,0 +1,98 @@
+{
+    "products" : [
+        {
+            "name" : "Blurryface",
+            "imageURL" : "images/Blurryface.webp",
+            "artist" : "Twenty One Pilots",
+            "description" : "",
+            "releasedate" : "May 17, 2015"
+        },
+        {
+            "name" : "Man on the Moon",
+            "imageURL" : "images/man-on-the-moon.webp",
+            "artist" : "Kid Cudi",
+            "description" : "",
+            "releasedate" : "Sept 15, 2009"
+        },
+        {
+            "name" : "Tickets to my Downfall",
+            "imageURL" : "images/tickets-to-my-downfall.webp",
+            "artist" : "MGK",
+            "description" : "",
+            "releasedate" : "Sept 25, 2020"
+        },
+        {
+            "name" : "Goodbye and Good Riddance",
+            "imageURL" : "images/goodbye-goodriddance.webp",
+            "artist" : "Juice Wrld",
+            "description" : "",
+            "releasedate" : "May 23, 2018"
+        },
+        {
+            "name" : "The 1975",
+            "imageURL" : "images/1975.webp",
+            "artist" : "The 1975",
+            "description" : "",
+            "releasedate" : "Sept 2, 2023" 
+        },
+        {
+            "name" : "Clancy",
+            "imageURL" : "images/clancy.webp",
+            "artist" : "Twenty One Pilots",
+            "description" : "",
+            "releasedate" : "May 24, 2024"
+        },
+        {
+            "name" : "Loom",
+            "imageURL" : "images/loom.webp",
+            "artist" : "Imagine Dragons",
+            "description" : "",
+            "releasedate" : "June 28,2024"
+        },
+        {
+            "name" : "Nectar",
+            "imageURL" : "images/nectar.webp",
+            "artist" : "Joji",
+            "description" : "",
+            "releasedate" : "Sept 25, 2020"
+        },
+        {
+            "name" : "Bloom Mountain",
+            "imageURL" : "images/bloom-mountain.webp",
+            "artist" : "Hazlett",
+            "description" : "",
+            "releasedate" : "Jan 13, 2023"
+        },
+        {
+            "name" : "Utopia",
+            "imageURL" : "images/utopia.webp",
+            "artist" : "Travis Scott",
+            "description" : "",
+            "releasedate" : "July 28, 2023"
+        },
+        {
+            "name" : "Night Visions",
+            "imageURL" : "images/night-visions.webp",
+            "artist" : "Imagine Dragons",
+            "description" : "",
+            "releasedate" : "Sept 4, 2012"
+        },
+        {
+            "name" : "Smithereens",
+            "imageURL" : "images/smithereens.webp",
+            "artist" : "Joji",
+            "description" : "",
+            "releasedate" : "Nov 4, 2022"
+        },
+        {
+            "name" : "Trench",
+            "imageURL" : "images/trench.webp",
+            "artist" : "Twenty One Pilots",
+            "description" : "",
+            "releasedate" : "Oct 5, 2018"
+        }
+
+
+
+    ]
+}
