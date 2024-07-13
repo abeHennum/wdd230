@@ -11,18 +11,26 @@
     <script src="scripts/hamburger.js" defer></script>
     <script src="scripts/footer.js" defer></script>
     <script src="scripts/home-weather.js" defer></script>
+    <script src="scripts/products.js" defer></script>
+    <script src="scripts/forecast.js" defer></script>
 </head>
     <body>
         <div id="content">
             <header id="version-1">
-                <h1>Vinly Fountain</h1>
-                <div id="logo"><img src="images/vinyl-fountain-logo.png" alt="vinyl-fountain-logo"></div>
+                <h1 class="header-title">Vinly Fountain</h1>
+                <div id="logo"><a href="index.html"><img src="images/vinyl-fountain-logo.png" alt="vinyl-fountain-logo"></a></div>
                 <nav>
                     <button id="menu-button"></button>
                         <ul id="navbar">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="products.html">Products</a></li>
-                            <li><a href="order.html">Order</a></li>
+                            <div id="nav-hover">
+                                <li><a href="index.html" class="link-hover">Home</a></li>
+                            </div>
+                            <div id="nav-hover">
+                                <li><a href="products.html" class="link-hover">Products</a></li>
+                            </div>
+                            <div id="nav-hover">
+                                <li><a href="order.html" class="link-hover">Order</a></li>
+                            </div>
                         </ul> 
                 </nav> 
             </header>
@@ -58,20 +66,20 @@
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, in!</p>
                     </div> 
                 </section>  -->
-                <div id="cards"></div>
+                <div id="bestseller-cards"></div>
 
             <div id="title-2">
                 <h1 class="weather">Weather</h1>
             </div>
 
                 <section class="weather-info">
+
                     <div id="current-weather">
                         <h3>Current Weather</h3>
                         <p>Weather: <img id="weather-icon" alt="weather-icon"><span id="weather"></span></p>
                     </div>
-
-                    <div id="three-day-forecast">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas aut quisquam voluptatum ut quod voluptatibus dicta eum cupiditate ipsam, veniam corrupti quam id aliquam molestias facilis reprehenderit officiis fuga ipsa.</p>
+                
+                    <div id="forecast">
                     </div>
                 </section>
 
