@@ -2,7 +2,7 @@
     "products" : [
         {
             "name" : "Blurryface",
-            "imageURL" : "images/Blurryface.webp",
+            "imageURL" : "images/blurryface.webp",
             "artist" : "Twenty One Pilots",
             "price" : "$19.99",
             "releasedate" : "May 17, 2015"
