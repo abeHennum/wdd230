@@ -48,5 +48,48 @@
     }
 
 
+    /* about page */
+
+    #city-grid{
+        display: grid;
+        grid-template-columns: 1fr, 1fr;
+        text-align: center; 
+        align-items: center;
+    }
+
+    #our-story{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin: 15px;
+    }
+
+    #about-picture{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        margin: 15px;
+    }
+
+    #about-picture-2{
+        margin: 15px;
+    }
+
+    #our-mission{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        margin: 15px;
+    }
+
+    #city-info{
+        margin: 15px;
+    }
+
+    .map{
+        grid-column: 2/3;
+        grid-row: 2/3;
+        margin: 15px;
+    }
+
+
+
 
 }

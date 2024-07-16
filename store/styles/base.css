@@ -25,6 +25,7 @@
     border: 2px solid var(--text-color);
     display: block;
     color: var(--text-color);
+    
     /* height: 2rem; */
 }
 
@@ -59,7 +60,7 @@ body{
 
 
 #order{
-    font-size: 2rem;
+    font-size: 1.7rem;
     position: absolute;
     top: 250px;
     left: 75px; 
@@ -67,6 +68,7 @@ body{
     border-radius: 10%;
     background-color: var(--header-color);
     color: white;
+    font-family: 'Pacifico';
 }
 
 .hero{
@@ -152,6 +154,7 @@ p{
     margin-block-end: 0px;
     padding-inline-start: 0px;
     font-size: 1.5rem;
+    font-family: 'Pacifico';
 }
 
 #navbar li a{
@@ -238,5 +241,70 @@ header{
     max-width: 200px;
     max-height: 200px;
     /* box-shadow: grey 10px 10px 5px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* about page */
+
+
+.map{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.city-info{
+    padding: 25px;
+    background-color: var(--card-color);
+    margin: 25px;
+    padding-top: 10px;
+    border: 3px solid var(--header-color);
+    border-radius: 10px; 
+    font-size: 1.3rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#about-picture{
+    padding: 25px;  
+    margin: 15px;
+}
+
+#about-picture-2{
+    margin: 15px;
+}
+
+
+#about-image-1{
+    max-width: 600px;
+    border-radius: 20px;
+    border: solid 3px var(--header-color);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#about-image-2{
+    max-width: 600px;
+    border-radius: 20px;
+    border: solid 3px var(--header-color);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#our-story{
+    padding: 25px;
+    background-color: var(--card-color);
+    margin: 25px;
+    padding-top: 10px;
+    border: 3px solid var(--header-color);
+    border-radius: 10px; 
+    font-size: 1.3rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#our-mission{
+    padding: 25px;
+    background-color: var(--card-color);
+    margin: 25px;
+    padding-top: 10px;
+    border: 3px solid var(--header-color);
+    border-radius: 10px; 
+    font-size: 1.3rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
