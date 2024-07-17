@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
+    <meta name="description" content="Vinyl Fountain Website">
+    <meta name="author" content="Abe Hennum">
+    <meta name="og:title" content="Vinyl Fountain - Home Page">
+    <meta name="og:type" content="website">
+    <meta name="og:image" content="images/vinyl-fountain-logo.png">
+    <meta name="og:url" content="https://abehennum.github.io/wdd230/store/index.html">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vinyl Fountain</title>
@@ -13,6 +19,7 @@
     <script src="scripts/home-weather.js" defer></script>
     <script src="scripts/products.js" defer></script>
     <script src="scripts/forecast.js" defer></script>
+    <script src="scripts/featured-products.js" defer></script>
 </head>
     <body>
         <div id="content">
@@ -50,26 +57,8 @@
             <div id="title-1">
                 <h1 class="bestsellers">Bestsellers</h1>
             </div>
-           <!-- <section class="best-sellers">
-                     <div id="best-1">
-                        <h4>title</h4>
-                        <img src="https://picsum.photos/200/200" alt="bestseller-1">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi corporis odit quod, accusantium nostrum recusandae ut eius quis iusto nisi, unde, qui fugiat amet magni sunt nam! Laboriosam, nisi soluta.</p>
-                    </div>
-
-                    <div id="best-2">
-                        <h4>title</h4>
-                        <img src="https://picsum.photos/200/200" alt="bestseller-2">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, in!</p>
-                    </div>
-                    
-                    <div id="best-3">
-                        <h4>title</h4>
-                        <img src="https://picsum.photos/200/200" alt="bestseller-3">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, in!</p>
-                    </div> 
-                </section>  -->
-                <div id="bestseller-cards"></div>
+           
+                <div id="home-bestseller-cards"></div>
 
             <div id="title-2">
                 <h1 class="weather">Weather</h1>
@@ -86,20 +75,7 @@
                     </div>
                 </section>
 
-                <div id="title-3">
-                    <h1 class="info-title">Info</h1>
-                </div>
-
-                <section class="info">
-                    <div id="about">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur doloremque nobis laudantium consequatur ipsa voluptatem quo asperiores soluta, accusantium facere explicabo tenetur rem reprehenderit earum sapiente? Nemo unde ipsa optio?</p>
-                    </div>
-
-                    <div id="orders">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat dolorem alias amet corporis. Debitis dolor blanditiis quam magni rem dolorum labore ipsa optio. Modi, rem dignissimos. Tempore aliquid numquam laudantium?</p>
-                    </div>
-                </section>
-
+               
             </main>
             <footer>
                 <div id="footer">
@@ -112,7 +88,7 @@
                         <a href="https://www.facebook.com/"><img src="images/facebook-icon.png"></a>
                     </div>
 
-                    <img id="footer-logo" src="images/vinyl-fountain-logo.png">
+                    <a href="index.html"><img id="footer-logo" src="images/vinyl-fountain-logo.png"></a>
                     
                     <div id="footer-contact-info">
                         <p>Phone: 385-555-0123</p>
@@ -121,6 +97,7 @@
                         <p>Salt Lake City, UT 84101</p>
                     </div>
                 </div>
+                <!-- photo credit -- wikapedia -->
             </footer>
         </div>
     </body>

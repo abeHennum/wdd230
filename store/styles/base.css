@@ -11,6 +11,9 @@
     --card-color: #dac7ff;
 }
 
+/* home page */
+
+
 
 #logo img{
     height: 100px;
@@ -107,6 +110,19 @@ p{
     display: block; 
 }
 
+#home-bestseller-cards{
+    display: grid;
+    justify-content: center;
+}
+
+
+
+#home-product-image{
+    max-width: 200px;
+    max-height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .weather{
     color: var(--header-color);
 }
@@ -119,27 +135,9 @@ p{
     background-color: var(--card-color);
 }
 
-
-
-.info-title{
-    color: var(--header-color);
-}
-
 #title-3{
     padding-top: 50px;
 }
-
-.info{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-gap: 10px;
-}
-
-#about, #orders{
-    background-color: var(--card-color);
-}
-
-
 
 #navbar.open{
     display: flex; 
@@ -250,6 +248,16 @@ header{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+#home-bestsellers{
+    background-color: var(--card-color);
+    max-width: 400px;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
 #h2-products{
     padding-top: 15px;
 }
@@ -332,4 +340,16 @@ header{
     border-radius: 10px; 
     font-size: 1.3rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* order page */
+
+
+
+
+/* formgrid */
+
+.label{
+    display: block;
 }

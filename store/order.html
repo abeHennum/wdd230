@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
+    <meta name="description" content="Vinyl Fountain Website">
+    <meta name="author" content="Abe Hennum">
+    <meta name="og:title" content="Vinyl Fountain - Order Page">
+    <meta name="og:type" content="website">
+    <meta name="og:image" content="images/vinyl-fountain-logo.png">
+    <meta name="og:url" content="https://abehennum.github.io/wdd230/store/order.html">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vinyl Fountain</title>
@@ -34,14 +40,42 @@
                         </ul> 
                 </nav> 
             </header>   
-            <main>
-                <p>hekjhkdjhf</p>
-                <p>hekjhkdjhf</p>
-                <p>hekjhkdjhf</p>
-                <p>hekjhkdjhf</p>
-                <p>hekjhkdjhf</p>
-                <p>hekjhkdjhf</p>
-                <p>hekjhkdjhf</p>
+            <main id="form">
+                <form method="get" action="thankyou.html">
+                    <label class="label label-1"><span class="prompt">First Name<span class="red">*</span></span>
+                        <input type="text" name="first-name" id="first-name" title="Enter first name" required>
+                    </label>
+
+                    <label class="label label-2"><span class="prompt">Last Name<span class="red">*</span></span>
+                        <input type="text" name="last-name" id="last-name" title="Enter last name" required>
+                    </label>
+                
+                    <label class="label label-3"><span class="prompt">Email Address<span class="red">*</span></span>
+                        <input type="email" name="email" id="email" title="Enter a valid email address" placeholder="abehennum@gmail.com" required>
+                    </label>
+
+                    <label class="label label-4"><span class="prompt">Phone Number<span class="red">*</span></span>
+                        <input type="tel" name="phone" id="phone" title="Enter a phone number" required>
+                    </label>
+
+                    <label class="label label-5"><span class="prompt">Street Address<span class="red">*</span></span>
+                        <input type="text" name="address" id="address" title="Enter Street Address" required>
+                    </label>
+
+                    <label class="label label-6"><span class="prompt">City<span class="red">*</span></span>
+                        <input type="text" name="city" id="city" title="Enter City" required>
+                    </label>
+
+                    <label class="label label-7"><span class="prompt">State<span class="red">*</span></span>
+                        <input type="text" name="state" id="state" title="Enter State" required>
+                    </label>
+
+                    <label class="label label-8"><span class="prompt">Zip Code<span class="red">*</span></span>
+                        <input type="text" name="zip" id="zip" title="Enter Zip Code" required>
+                    </label>
+
+                    
+                </form>
             </main>
             <footer>
                 <div id="footer">
@@ -54,7 +88,7 @@
                         <a href="https://www.facebook.com/"><img src="images/facebook-icon.png"></a>
                     </div>
 
-                    <img id="footer-logo" src="images/vinyl-fountain-logo.png">
+                    <a href="index.html"><img id="footer-logo" src="images/vinyl-fountain-logo.png"></a>
                     
                     <div id="footer-contact-info">
                         <p>Phone: 385-555-0123</p>

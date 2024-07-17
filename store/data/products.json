@@ -1,6 +1,7 @@
 {
     "products" : [
         {
+            "featured" : true,
             "name" : "Blurryface",
             "imageURL" : "images/blurryface.webp",
             "artist" : "Twenty One Pilots",
@@ -8,13 +9,7 @@
             "releasedate" : "May 17, 2015"
         },
         {
-            "name" : "Man on the Moon",
-            "imageURL" : "images/man-on-the-moon.webp",
-            "artist" : "Kid Cudi",
-            "price" : "$19.99",
-            "releasedate" : "Sept 15, 2009"
-        },
-        {
+            "featured" : true,
             "name" : "Tickets to my Downfall",
             "imageURL" : "images/tickets-to-my-downfall.webp",
             "artist" : "MGK",
@@ -22,6 +17,15 @@
             "releasedate" : "Sept 25, 2020"
         },
         {
+            "featured" : true,
+            "name" : "Man on the Moon",
+            "imageURL" : "images/man-on-the-moon.webp",
+            "artist" : "Kid Cudi",
+            "price" : "$19.99",
+            "releasedate" : "Sept 15, 2009"
+        },
+        {
+            "featured" : false,
             "name" : "Goodbye/Good Riddance",
             "imageURL" : "images/goodbye-goodriddance.webp",
             "artist" : "Juice Wrld",
@@ -29,6 +33,7 @@
             "releasedate" : "May 23, 2018"
         },
         {
+            "featured" : false,
             "name" : "The 1975",
             "imageURL" : "images/1975.webp",
             "artist" : "The 1975",
@@ -36,6 +41,7 @@
             "releasedate" : "Sept 2, 2023" 
         },
         {
+            "featured" : false,
             "name" : "Clancy",
             "imageURL" : "images/clancy.webp",
             "artist" : "Twenty One Pilots",
@@ -43,6 +49,7 @@
             "releasedate" : "May 24, 2024"
         },
         {
+            "featured" : false,
             "name" : "Loom",
             "imageURL" : "images/loom.webp",
             "artist" : "Imagine Dragons",
@@ -50,6 +57,7 @@
             "releasedate" : "June 28,2024"
         },
         {
+            "featured" : false,
             "name" : "Nectar",
             "imageURL" : "images/nectar.webp",
             "artist" : "Joji",
@@ -57,6 +65,7 @@
             "releasedate" : "Sept 25, 2020"
         },
         {
+            "featured" : false,
             "name" : "Bloom Mountain",
             "imageURL" : "images/bloom-mountain.webp",
             "artist" : "Hazlett",
@@ -64,6 +73,7 @@
             "releasedate" : "Jan 13, 2023"
         },
         {
+            "featured" : false,
             "name" : "Utopia",
             "imageURL" : "images/utopia.webp",
             "artist" : "Travis Scott",
@@ -71,6 +81,7 @@
             "releasedate" : "July 28, 2023"
         },
         {
+            "featured" : false,
             "name" : "Night Visions",
             "imageURL" : "images/night-visions.webp",
             "artist" : "Imagine Dragons",
@@ -78,6 +89,7 @@
             "releasedate" : "Sept 4, 2012"
         },
         {
+            "featured" : false,
             "name" : "Smithereens",
             "imageURL" : "images/smithereens.webp",
             "artist" : "Joji",
@@ -85,6 +97,7 @@
             "releasedate" : "Nov 4, 2022"
         },
         {
+            "featured" : false,
             "name" : "Trench",
             "imageURL" : "images/trench.webp",
             "artist" : "Twenty One Pilots",
@@ -92,6 +105,7 @@
             "releasedate" : "Oct 5, 2018"
         },
         {
+            "featured" : false,
             "name" : "LANY",
             "imageURL" : "images/lany.webp",
             "artist" : "LANY",
@@ -99,6 +113,7 @@
             "releasedate" : "June 30, 2017"
         },
         {
+            "featured" : false,
             "name" : "Scorpion",
             "imageURL" : "images/scorpion.webp",
             "artist" : "Drake",
@@ -106,6 +121,7 @@
             "releasedate" : "June 29, 2018"
         },
         {
+            "featured" : false,
             "name" : "Vessel",
             "imageURL" : "images/vessel.webp",
             "artist" : "Twenty One Pilots",

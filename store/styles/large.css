@@ -1,5 +1,7 @@
 @media screen and (min-width: 1024px){
 
+    /* home page */
+
     header{
         display: grid; 
         grid-template-columns: 1fr 3fr 2fr;
@@ -44,8 +46,35 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         background-color: var(--card-color);
-
+        margin: 25px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
+
+    #current-weather{
+        margin: 25px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    #home-bestseller-cards{
+        display: grid;
+        grid-gap: 50px;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        margin-right: 60px;
+    } 
+
+    #home-bestsellers{
+        background-color: var(--card-color);
+        padding: 25px;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+
+   
 
 
     /* about page */
