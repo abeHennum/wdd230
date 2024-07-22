@@ -17,10 +17,10 @@
     <script src="scripts/hamburger.js" defer></script>
     <script src="scripts/footer.js" defer></script>
     <script src="scripts/home-weather.js" defer></script>
-    <script src="scripts/products.js" defer></script>
     <script src="scripts/forecast.js" defer></script>
     <script src="scripts/featured-products.js" defer></script>
     <script src="scripts/products-button.js" defer></script>
+    <script src="scripts/sold.js" defer></script>
 </head>
     <body>
         <div id="content">
@@ -45,7 +45,7 @@
                
             <main>
                 <section class="hero">
-                    <button id="order">Order Vinyls Now!</button>
+                    <button id="order">Order a Vinyl Now!</button>
                     <picture>
                         <source media="(max-width: 800px)" srcset="images/hero-image-small.webp" alt="hero-image">
                         <source media="(max-width: 1024px)" srcset="images/hero-image-medium.webp" alt="hero-image">
@@ -59,7 +59,7 @@
                 <div id="home-bestseller-cards"></div>
 
             <div id="title-2">
-                <h1 class="weather">Weather</h1>
+                <h1 class="weather">Widgets</h1>
             </div>
 
                 <section class="weather-info">
@@ -69,8 +69,13 @@
                         <p>Weather: <img id="weather-icon" alt="weather-icon"><span id="weather"></span></p>
                     </div>
                 
-                    <div id="forecast">
-                    </div>
+                    <div id="forecast"></div>
+
+                <div id="visits-style">
+                    <h3>Vinyls Sold</h3>
+                    <h4>Total:</h4><div id="visits"></div>
+                </div>
+
                 </section>
 
                

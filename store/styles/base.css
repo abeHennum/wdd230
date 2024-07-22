@@ -135,9 +135,19 @@ p{
     padding-top: 50px;
 }
 
-#three-day-forecast, #current-weather{
+#forecast, #current-weather, #visits-style{
     background-color: var(--card-color);
+    margin: 20px;
+    border-radius: 25px;
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+#visits-style{
+    font-size: 1.2rem;
+}
+
+
 
 #title-3{
     padding-top: 50px;
@@ -148,6 +158,7 @@ p{
     flex-direction: column;
     justify-content: space-around;
     background-color: var(--card-color);
+    
 
 }
 
