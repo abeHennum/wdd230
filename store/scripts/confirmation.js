@@ -1,9 +1,9 @@
 
 const url = './data/products.json'
 const cards = document.querySelector('#cards');
-let productId = new URL(window.location).searchParams.get("product");
-document.getElementById("hiddenField").value = productId;
-
+let productId = new URL(window.location).searchParams.get("hiddenField");
+let url2 = new URL(window.location);
+let params = url2.searchParams;
 
 // const bestsellerCards = document.querySelector('#bestseller-cards');
 
@@ -11,7 +11,6 @@ const displayProducts = (products) => {
     products.forEach((product) => {
         let newsection = document.createElement("section");
         newsection.innerHTML = `
-        <a href="order.html?product=${product.identifier}" id="order-link">
         <div id="bestseller-cards">
         <h2 id="h2-products">${product.name}</h2>
         <img id="product-image" src="${product.imageURL}" alt="${product.name} image" loading="lazy" height="400">
@@ -22,6 +21,7 @@ const displayProducts = (products) => {
         </a>`
         cards.append(newsection)
     });
+        
   }
 
 
@@ -39,5 +39,13 @@ async function getProductData(){
 getProductData()
 
 
-// let p = new URL(window.locaton).searchParams.get("product");
-// document.getElementById("#hiddenField").value = productId;
+
+document.querySelector('#yourfirstname').textContent = params.get("first-name");
+document.querySelector('#yourlastname').textContent = params.get("last-name");
+document.querySelector('#email').textContent = params.get("email");
+document.querySelector('#phone').textContent = params.get("phone");
+document.querySelector('#address').textContent = params.get("address");
+document.querySelector('#city').textContent = params.get("city");
+document.querySelector('#state').textContent = params.get("state");
+document.querySelector('#zip').textContent = params.get("zip");
+

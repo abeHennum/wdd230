@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="styles/large.css">
     <script src="scripts/hamburger.js" defer></script>
     <script src="scripts/footer.js" defer></script>
-    <script src="scripts/order.js" defer></script>
+    <script src="scripts/confirmation.js" defer></script>
 </head>
     <body>
         <div id="content">
@@ -38,12 +38,26 @@
                         </ul> 
                 </nav> 
             </header>
-            <main>
 
-                <section>
-                    <p>Your First Name <span id="yourfirstname"></span>.</p>
-                    <p>Your Last Name <span id="yourlastname"></span>.</p>
-                    <p><span id="yourgender"></span>.</p>
+            <h1 id="thank-you-h1">Your Order has been Confirmed!</h1>
+
+            <main id="thank-you-grid">
+
+            <div id="thank-you-card">
+                <div id="cards"></div>
+            </div>
+
+                <section class="conf-info">
+                    <p>First Name: <span id="yourfirstname"></span></p>
+                    <p>Last Name: <span id="yourlastname"></span></p>
+                    <p>Email: <span id="email"></span></p>
+                    <p>Phone: <span id="phone"></span></p>
+                    <p>Street Address: <span id="address"></span></p>
+                    <p>City: <span id="city"></span></p>
+                    <p>State: <span id="state"></span></p>
+                    <p>Zip Code: <span id="zip"></span></p>
+                 
+                    
                 </section>
                
 

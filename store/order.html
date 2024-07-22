@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="styles/large.css">
     <script src="scripts/hamburger.js" defer></script>
     <script src="scripts/footer.js" defer></script>
+    <script src="scripts/order-products.js" defer></script>
 </head>
     <body>
         <div id="content">
@@ -38,6 +39,9 @@
                 </nav> 
             </header>   
             <main id="form">
+            <div id="order-card-div">
+                <div id="cards"></div>
+            </div>
             <div id="form-div">
                 <form method="get" action="thankyou.html">
                     <label class="label label-1"><span class="prompt">First Name<span class="red">*</span></span>
@@ -65,17 +69,22 @@
                     </label>
 
                     <label class="label label-7"><span class="prompt">State<span class="red">*</span></span>
-                        <input type="text" name="state" id="state" title="Enter State" required>
+                        <input type="text" name="state" id="state" title="Enter State" placeholder="MO" required pattern="[A-Z]{2}">
                     </label>
 
                     <label class="label label-8"><span class="prompt">Zip Code<span class="red">*</span></span>
-                        <input type="text" name="zip" id="zip" title="Enter Zip Code" required>
+                        <input type="text" name="zip" id="zip" title="Enter Zip Code" placeholder="12345" pattern="[0-9]{5}" required>
                     </label>
 
                     <label class="label label-9"><span class="prompt">Gift Message<span class="red"></span></span>
                         <textarea name="gift" id="gift" rows="8" cols="44"></textarea>
                     </label>
-                    <button id="buy">Order Now</button>
+
+                    <input type="hidden" name="hiddenField" id="hiddenField" value="">
+
+                    <div id="left-button">
+                        <button id="buy">Order the Vinyl!</button>
+                    </div>
                 </form>
             </div>
             <div id="order-product-info">

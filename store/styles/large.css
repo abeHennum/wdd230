@@ -131,6 +131,51 @@
         margin: 15px;
     }
 
+    /* order page */
+
+
+    #form{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #order-card-div{
+        grid-column: 2/3;
+        margin-top: 50px;
+    }
+
+    #form-div{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin-left: 50px;
+        margin-bottom: 50px;
+    }
+
+    #left-button{
+        text-align: left;
+    }
+
+
+    /* thank you page */
+
+  #thank-you-card{
+    grid-column: 2/3;
+  }
+
+  .conf-info{
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  #thank-you-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 
 
 
