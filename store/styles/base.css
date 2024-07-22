@@ -66,8 +66,8 @@ body{
 #order{
     font-size: 1.7rem;
     position: absolute;
-    top: 250px;
-    left: 75px; 
+    left: 175px;
+    top: 350px;
     padding: 1rem;
     border-radius: 10%;
     background-color: var(--header-color);
@@ -115,6 +115,10 @@ p{
     justify-content: center;
 }
 
+#home-bestsellers:hover{
+    background-color: var(--header-color);
+}
+
 
 
 #home-product-image{
@@ -153,7 +157,6 @@ p{
     margin-block-end: 0px;
     padding-inline-start: 0px;
     font-size: 1.5rem;
-    font-family: 'Pacifico';
 }
 
 #navbar li a{
@@ -230,6 +233,22 @@ header{
     font-size: 3rem;
 }
 
+#order-link{
+    text-decoration: none;
+    color: black;
+}
+
+#order-link:active{
+    color: black;
+}
+
+#order-link:hover{
+    color: white;
+}
+
+#order-link:visited{
+    display: none;
+}
 
 #cards{
     display: grid;
@@ -246,6 +265,10 @@ header{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+#bestseller-cards:hover{
+    background-color: var(--header-color);
+}
+
 #home-bestsellers{
     background-color: var(--card-color);
     max-width: 400px;
@@ -259,6 +282,7 @@ header{
 #h2-products{
     padding-top: 15px;
 }
+
 
 .products{
     background-color: var(--card-color);
@@ -343,6 +367,32 @@ header{
 
 /* order page */
 
+.label{
+    display: block;
+    text-align:left;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.prompt{
+    font-size: 1rem;
+    margin: auto;
+    display: block; 
+    margin-left: 25px;
+}
+
+input{
+    margin-bottom: 1rem;
+    height: 42px;
+    width: 20rem;
+    max-width: 400px;
+    margin-left: 25px;
+
+}
+
+#gift{
+    margin-left: 25px;
+}
 
 
 

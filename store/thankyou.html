@@ -3,10 +3,10 @@
 <head>
     <meta name="description" content="Vinyl Fountain Website">
     <meta name="author" content="Abe Hennum">
-    <meta name="og:title" content="Vinyl Fountain - Order Page">
+    <meta name="og:title" content="Vinyl Fountain - Home Page">
     <meta name="og:type" content="website">
     <meta name="og:image" content="images/vinyl-fountain-logo.png">
-    <meta name="og:url" content="https://abehennum.github.io/wdd230/store/order.html">
+    <meta name="og:url" content="https://abehennum.github.io/wdd230/store/index.html">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vinyl Fountain</title>
@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="styles/large.css">
     <script src="scripts/hamburger.js" defer></script>
     <script src="scripts/footer.js" defer></script>
+    <script src="scripts/order.js" defer></script>
 </head>
     <body>
         <div id="content">
@@ -36,51 +37,15 @@
                             </div>
                         </ul> 
                 </nav> 
-            </header>   
-            <main id="form">
-            <div id="form-div">
-                <form method="get" action="thankyou.html">
-                    <label class="label label-1"><span class="prompt">First Name<span class="red">*</span></span>
-                        <input type="text" name="first-name" id="first-name" title="Enter first name" required>
-                    </label>
+            </header>
+            <main>
 
-                    <label class="label label-2"><span class="prompt">Last Name<span class="red">*</span></span>
-                        <input type="text" name="last-name" id="last-name" title="Enter last name" required>
-                    </label>
-                
-                    <label class="label label-3"><span class="prompt">Email Address<span class="red">*</span></span>
-                        <input type="email" name="email" id="email" title="Enter a valid email address" placeholder="abehennum@gmail.com" required>
-                    </label>
-
-                    <label class="label label-4"><span class="prompt">Phone Number<span class="red">*</span></span>
-                        <input type="tel" name="phone" id="phone" title="Enter a phone number" required>
-                    </label>
-
-                    <label class="label label-5"><span class="prompt">Street Address<span class="red">*</span></span>
-                        <input type="text" name="address" id="address" title="Enter Street Address" required>
-                    </label>
-
-                    <label class="label label-6"><span class="prompt">City<span class="red">*</span></span>
-                        <input type="text" name="city" id="city" title="Enter City" required>
-                    </label>
-
-                    <label class="label label-7"><span class="prompt">State<span class="red">*</span></span>
-                        <input type="text" name="state" id="state" title="Enter State" required>
-                    </label>
-
-                    <label class="label label-8"><span class="prompt">Zip Code<span class="red">*</span></span>
-                        <input type="text" name="zip" id="zip" title="Enter Zip Code" required>
-                    </label>
-
-                    <label class="label label-9"><span class="prompt">Gift Message<span class="red"></span></span>
-                        <textarea name="gift" id="gift" rows="8" cols="44"></textarea>
-                    </label>
-                    <button id="buy">Order Now</button>
-                </form>
-            </div>
-            <div id="order-product-info">
-
-            </div>
+                <section>
+                    <p>Your First Name <span id="yourfirstname"></span>.</p>
+                    <p>Your Last Name <span id="yourlastname"></span>.</p>
+                    <p><span id="yourgender"></span>.</p>
+                </section>
+               
 
             </main>
             <footer>
@@ -103,6 +68,7 @@
                         <p>Salt Lake City, UT 84101</p>
                     </div>
                 </div>
+                <!-- photo credit -- wikapedia -->
             </footer>
         </div>
     </body>

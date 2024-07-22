@@ -12,6 +12,13 @@
         grid-column: 1/2;
     }
 
+   #order{
+    font-size: 1.7rem;
+    position: absolute;
+    top: 250px;
+    left: 75px; 
+   }
+
     h1{
         display: inline;
         grid-column: 2/3;

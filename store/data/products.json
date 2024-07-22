@@ -6,15 +6,19 @@
             "imageURL" : "images/blurryface.webp",
             "artist" : "Twenty One Pilots",
             "price" : "$19.99",
-            "releasedate" : "May 17, 2015"
+            "releasedate" : "May 17, 2015",
+            "identifier" : 1001
         },
         {
+            
             "featured" : true,
             "name" : "Tickets to my Downfall",
             "imageURL" : "images/tickets-to-my-downfall.webp",
             "artist" : "MGK",
             "price" : "$19.99",
-            "releasedate" : "Sept 25, 2020"
+            "releasedate" : "Sept 25, 2020",
+            "identifier" : 1002
+
         },
         {
             "featured" : true,
@@ -22,7 +26,8 @@
             "imageURL" : "images/man-on-the-moon.webp",
             "artist" : "Kid Cudi",
             "price" : "$19.99",
-            "releasedate" : "Sept 15, 2009"
+            "releasedate" : "Sept 15, 2009",
+            "identifier" : 1003
         },
         {
             "featured" : false,
@@ -30,7 +35,8 @@
             "imageURL" : "images/goodbye-goodriddance.webp",
             "artist" : "Juice Wrld",
             "price" : "$19.99",
-            "releasedate" : "May 23, 2018"
+            "releasedate" : "May 23, 2018",
+            "identifier" : 1004
         },
         {
             "featured" : false,
@@ -38,7 +44,8 @@
             "imageURL" : "images/1975.webp",
             "artist" : "The 1975",
             "price" : "$19.99",
-            "releasedate" : "Sept 2, 2023" 
+            "releasedate" : "Sept 2, 2023",
+            "identifier" : 1005
         },
         {
             "featured" : false,
@@ -46,7 +53,8 @@
             "imageURL" : "images/clancy.webp",
             "artist" : "Twenty One Pilots",
             "price" : "$19.99",
-            "releasedate" : "May 24, 2024"
+            "releasedate" : "May 24, 2024",
+            "identifier" : 1006
         },
         {
             "featured" : false,
@@ -54,7 +62,8 @@
             "imageURL" : "images/loom.webp",
             "artist" : "Imagine Dragons",
             "price" : "$19.99",
-            "releasedate" : "June 28,2024"
+            "releasedate" : "June 28,2024",
+            "identifier" : 1007
         },
         {
             "featured" : false,
@@ -62,7 +71,8 @@
             "imageURL" : "images/nectar.webp",
             "artist" : "Joji",
             "price" : "$19.99",
-            "releasedate" : "Sept 25, 2020"
+            "releasedate" : "Sept 25, 2020",
+            "identifier" : 1008
         },
         {
             "featured" : false,
@@ -70,7 +80,8 @@
             "imageURL" : "images/bloom-mountain.webp",
             "artist" : "Hazlett",
             "price" : "$19.99",
-            "releasedate" : "Jan 13, 2023"
+            "releasedate" : "Jan 13, 2023",
+            "identifier" : 1009
         },
         {
             "featured" : false,
@@ -78,7 +89,8 @@
             "imageURL" : "images/utopia.webp",
             "artist" : "Travis Scott",
             "price" : "$19.99",
-            "releasedate" : "July 28, 2023"
+            "releasedate" : "July 28, 2023",
+            "identifier" : 1010
         },
         {
             "featured" : false,
@@ -86,7 +98,8 @@
             "imageURL" : "images/night-visions.webp",
             "artist" : "Imagine Dragons",
             "price" : "$19.99",
-            "releasedate" : "Sept 4, 2012"
+            "releasedate" : "Sept 4, 2012",
+            "identifier" : 1011
         },
         {
             "featured" : false,
@@ -94,7 +107,8 @@
             "imageURL" : "images/smithereens.webp",
             "artist" : "Joji",
             "price" : "$19.99",
-            "releasedate" : "Nov 4, 2022"
+            "releasedate" : "Nov 4, 2022",
+            "identifier" : 1012
         },
         {
             "featured" : false,
@@ -102,7 +116,8 @@
             "imageURL" : "images/trench.webp",
             "artist" : "Twenty One Pilots",
             "price" : "$19.99",
-            "releasedate" : "Oct 5, 2018"
+            "releasedate" : "Oct 5, 2018",
+            "identifier" : 1013
         },
         {
             "featured" : false,
@@ -110,7 +125,8 @@
             "imageURL" : "images/lany.webp",
             "artist" : "LANY",
             "price" : "$19.99",
-            "releasedate" : "June 30, 2017"
+            "releasedate" : "June 30, 2017",
+            "identifier" : 1014
         },
         {
             "featured" : false,
@@ -118,7 +134,8 @@
             "imageURL" : "images/scorpion.webp",
             "artist" : "Drake",
             "price" : "$19.99",
-            "releasedate" : "June 29, 2018"
+            "releasedate" : "June 29, 2018",
+            "identifier" : 1015
         },
         {
             "featured" : false,
@@ -126,7 +143,8 @@
             "imageURL" : "images/vessel.webp",
             "artist" : "Twenty One Pilots",
             "price" : "$19.99",
-            "releasedate" : "Jan 8, 2013"
+            "releasedate" : "Jan 8, 2013",
+            "identifier" : 1016
         }
 
 
