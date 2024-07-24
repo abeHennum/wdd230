@@ -11,6 +11,7 @@ const displayProducts = (products) => {
     products.forEach((product) => {
         let newsection = document.createElement("section");
         newsection.innerHTML = `
+        <div id="negative">
         <a href="order.html?product=${product.identifier}" id="order-link">
         <div id="bestseller-cards">
         <h2 id="h2-products">${product.name}</h2>
@@ -19,7 +20,8 @@ const displayProducts = (products) => {
         <p id="p-products">Release Date: ${product.releasedate}</p>
         <p id="p-price">Price: ${product.price}</p>
         <div>
-        </a>`
+        </a>
+        </div>`
         cards.append(newsection)
     });
   }

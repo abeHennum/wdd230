@@ -413,6 +413,14 @@ input:valid{
     margin-left: 25px;
 }
 
+#sales-tax{
+    text-align: center;
+    background-color: var(--card-color);
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .prompt{
     font-size: 1.3rem;
     margin: auto;
